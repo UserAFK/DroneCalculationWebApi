@@ -1,0 +1,19 @@
+# Visual Studio files
+.vs/
+
+# Build output
+/bin/
+/obj/
+
+# Package files
+*.nupkg
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Other
+*.cache
+*.log
