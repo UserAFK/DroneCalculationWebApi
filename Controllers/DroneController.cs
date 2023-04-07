@@ -3,14 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DroneCalculationWebApi.Controllers;
 
-[Route("api/products")]
+[Route("api/[controller]")]
 [ApiController]
-public class ProductsController : ControllerBase
+public class DroneController : ControllerBase
 {
     //private readonly MyDbContext _context;
 
     //public ProductsController(MyDbContext context)
-    public ProductsController()
+    public DroneController()
     {
         // _context = context;
     }
