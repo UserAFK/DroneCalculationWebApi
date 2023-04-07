@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DroneCalculationWebApi.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/drone")]
 [ApiController]
 public class DroneController : ControllerBase
 {
